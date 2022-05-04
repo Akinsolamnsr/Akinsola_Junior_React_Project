@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html { 
+  height:100%;
+}
+
+
+@font-face {
+font-family:"Raleway";
+src:local("Raleway"),url("./Font/Raleway-Medium.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family:Raleway;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height:100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.buttonDown::after{
+  content: ">";
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left:10px;
+  font-size: small;
+}
+
+.buttonUp::after{
+  content: ">";
+  display: inline-block;
+  transform: rotate(270deg);
+  margin-left:10px;
+  font-size: small;
+
+}
+
+.hid{
+  visibility: hidden;
+}
+
+.btn:hover{
+  background: #ced0ce;
+}
+
+.btn{
+  border: none;
+  background: white;
+  
+}
+
+.SVG{
+  font-size: small;
+  width: 5px;
+  height: 5px;
+}
+
+.Pad{
+  padding-left: 6%;
+}
+
+.form{
+  width: 100%;
+  
+}
+
+.CatMargin{
+  margin-left: 2%;
+  font-family: Raleway
+}
+
+.cart{
+  position: relative;
+  z-index: 4;
+  visibility: hidden;
+  top:-12px;
+  left:80%;
+  width: 15%;
+  border-radius: 50%;
+  border: none;
+  background-color: #67e48c;
+ 
+}
+
+.cart2{
+  position: relative;
+  z-index: 4;
+  visibility: visible;
+  top:-12px;
+  left:80%;
+  width: 15%;
+  border-radius: 50%;
+  border: none;
+  background-color: #67e48c;
+}
+
+.hove:hover .cart{
+  visibility: visible;
+}
+
+.hove:hover{
+  box-shadow: 6px 9px 9px 13px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 6px 9px 9px 13px rgba(0,0,0,0.08);
+  -moz-box-shadow: 6px 9px 9px 13px rgba(0,0,0,0.08);
+}
+
+
+.hove2{
+  box-shadow: 6px 9px 9px 13px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 6px 9px 9px 13px rgba(0,0,0,0.08);
+  -moz-box-shadow: 6px 9px 9px 13px rgba(0,0,0,0.08);
+}
+
+.select{
+  background: black;
+  color: whitesmoke;
+}
+
+.select2{
+  background:black;
+  color: white;
+}
+
+.swatch{
+  height:2.5em ;
+  width: 2.5em;
+ font-size: x-small;
+ border: 2px solid green;
+}
+
+.swatch2{
+  height:3em ;
+  width: 3em;
+ font-size: x-small;
+ border: 1px solid gray;
+}
+
+.swatch3{
+  height:1.5em ;
+  width: 1.5em;
+ font-size: x-small;
+ border: 2px solid green;
+}
+
+.caro{
+width:30px ;
+height: 30px;
+margin-right: 10px;
+font-size:larger;
+margin-top: 25%;
+color: gray;
+border-radius: none;
+margin-bottom: 8px;
+}
+
+.caro2{
+  width:20px ;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size:small;
+  border-radius: none;
+  color: gray;
+  
+
+  }
+
+.Name{
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.Name2{
+  font-weight: bold;
+  margin-bottom: 3%;
+  font-size: x-large;
+}
+.currency{
+  font-size: small;
+  font-weight: bold;
+  margin-top: 5%;
+ 
+}
+
+.AtrribId{
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.Parent div{
+  margin-bottom: 3px;
+}
+
+.Parent{
+  margin-top: 1%;
+
+  display: flex;
+  flex-direction: column;
+  align-self:flex-end
+}
+
+.Brand{
+  font-style: italic;
+}
+
+.Brand2{
+  font-style: italic;
+  font-size: x-large;
+}
+
+.Attrib{
+  margin-top: 8%;
+}
+
+.AttribButton{
+ height:2.5em ;
+ width: 2.5em;
+font-size: x-small;
+border: 1px solid #ced0ce;
+}
+
+.AttribButton2{
+  color: black;
+  background: white;
+ }
+
+ .AttribButton4{
+  color: black;
+  background: white;
+ }
+
+ .AttribButton3{
+  height:1.5em ;
+  width: 1.5em;
+ font-size: x-small;
+ border: 1px solid #ced0ce;
+
+ }
+
+ .AtrribPlP{
+position: relative;
+font-size: x-small;
+
+ }
+
+.boldIt{
+  font-weight: bold;
+  font-size: small;
+  padding-left: 0.2%;
+}
+
+.boldIt2{
+  font-weight: bold;
+  font-size: small;
+  padding-left: 2%;
+}
+
+.boldIt3{
+  font-weight: bold;
+  font-size: small;
+  padding-left: 2%;
+  margin-right: 25%;
+}
+
+.PadButtom{
+  margin-top: 2%;
+}
+
+.OrderBtn{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.AttribId2{
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 8%;
+}
+
+.AttribId3{
+  font-weight: bold;
+ 
+}
+
+.price{
+  font-size: large;
+  font-weight: bold;
+}
+
+.ImgHover:hover{
+  box-shadow: 1px 2px 9px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 2px 9px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 9px 2px rgba(0,0,0,0.75);
+}
+
+.CatBtn{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #67e48c;
+  color: white;
+}
+
+.NavSee{
+  color:green ;
+  border: 1px solid green;
+  font-family:Raleway;
+
+}
+
+.selectCat{
+border: 1px solid #ced0ce;
+border-radius: none;
+height: 25px;
+width: 100px;
+}
+
+.BtnUp{
+  transform: rotate(270deg);
+  margin-left: 8px;
+  font-size: small;
+}
+
+
+.disp2:hover  .BtnUp{
+  transform: rotate(90deg);
+  margin-left: 3px;
+}
+
+
+.disp2:hover  .hid{
+  visibility: visible;
+}
+
+.hid:hover{
+  display: flex;
+}
+
+.modal{
+  display: block;
+  position:absolute;
+  z-index: 4;
+  opacity: 50%;
+  background:black;
+  width: 100%;
+  margin-top: -5%;
+}
+
+.selectCat2{
+  border: 1px solid #ced0ce;
+  border-radius: none;
+  height: 25px;
+  background: #67e48c;
+  color: white;
+  width: 100px;
+  }
+
+  .del{
+    border: none;
+    color: white;
+    background: #67e48c;
+    border-radius: none;
+  }
+
+  .del2{
+    border: none;
+    color: white;
+    background: #67e48c;
+    border-radius: none;
+    position: relative;
+    z-index: 1;
+    top: 97%;
+    left: -145%;
+  }
+
+  .Stock{
+    position: relative;
+    z-index: 1;
+   color: gray;
+   bottom: 58%
+  }
+
+
+  .visible{
+    visibility:visible
+  }
+
+  .nonvisible{
+    visibility: hidden;
+  }
+
+  .view{
+    display: flex;
+    color: red;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .PadButtom{
+    width:100%;
+  }
+
+  .CartSvg{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: none;
+  }
